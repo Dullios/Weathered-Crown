@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 8a0331b6b9ce1044ab20c8978fb1c09d
+timeCreated: 1434488459
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle_0
+    21300002: idle_1
+    21300004: walk_0
+    21300006: walk_1
+    21300008: walk_2
+    21300010: walk_3
+    21300012: attack_0
+    21300014: attack_1
+    21300016: attack_2
+    21300018: flying_0
+    21300020: flying_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idle_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2070
+        width: 258
+        height: 312
+      alignment: 9
+      pivot: {x: .579452991, y: .12187469}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_1
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 2061
+        width: 299
+        height: 321
+      alignment: 9
+      pivot: {x: .64220804, y: .146474481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1630
+        width: 342
+        height: 266
+      alignment: 9
+      pivot: {x: .578680038, y: .0713574439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_1
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1586
+        width: 348
+        height: 313
+      alignment: 9
+      pivot: {x: .558282077, y: .209110737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_2
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1589
+        width: 339
+        height: 336
+      alignment: 9
+      pivot: {x: .606773376, y: .163995296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_3
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1595
+        width: 344
+        height: 318
+      alignment: 9
+      pivot: {x: .583016336, y: .144348532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1002
+        width: 354
+        height: 375
+      alignment: 9
+      pivot: {x: .770101964, y: .0383823253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_1
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 978
+        width: 594
+        height: 385
+      alignment: 9
+      pivot: {x: .472433597, y: .0984711125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_2
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 978
+        width: 438
+        height: 408
+      alignment: 9
+      pivot: {x: .458680034, y: .092328392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_0
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 292
+        width: 444
+        height: 487
+      alignment: 9
+      pivot: {x: .458310664, y: .0459007546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_1
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 294
+        width: 576
+        height: 514
+      alignment: 9
+      pivot: {x: .381606221, y: .0356380604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

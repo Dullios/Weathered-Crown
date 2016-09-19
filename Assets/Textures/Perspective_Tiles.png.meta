@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: bd8354627aad43641942109f079a4c05
+timeCreated: 1438395890
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Perspective_Tiles_0
+    21300002: Perspective_Tiles_1
+    21300004: Perspective_Tiles_2
+    21300006: Perspective_Tiles_3
+    21300008: Perspective_Tiles_4
+    21300010: Perspective_Tiles_5
+    21300012: Perspective_Tiles_6
+    21300014: Perspective_Tiles_7
+    21300016: Perspective_Tiles_8
+    21300018: Perspective_Tiles_9
+    21300020: Perspective_Tiles_10
+    21300022: Perspective_Tiles_11
+    21300024: Perspective_Tiles_12
+    21300026: Perspective_Tiles_13
+    21300028: Perspective_Tiles_14
+    21300030: Perspective_Tiles_15
+    21300032: Perspective_Tiles_16
+    21300034: Perspective_Tiles_17
+    21300036: Perspective_Tiles_18
+    21300038: Perspective_Tiles_19
+    21300040: Perspective_Tiles_20
+    21300042: Perspective_Tiles_21
+    21300044: Perspective_Tiles_22
+    21300046: Perspective_Tiles_23
+    21300048: Perspective_Tiles_24
+    21300050: Perspective_Tiles_25
+    21300052: Perspective_Tiles_26
+    21300054: Perspective_Tiles_27
+    21300056: Perspective_Tiles_28
+    21300058: Perspective_Tiles_29
+    21300060: Perspective_Tiles_30
+    21300062: Perspective_Tiles_31
+    21300064: Perspective_Tiles_32
+    21300066: Perspective_Tiles_33
+    21300068: Perspective_Tiles_34
+    21300070: Perspective_Tiles_35
+    21300072: Perspective_Tiles_36
+    21300074: Perspective_Tiles_37
+    21300076: Perspective_Tiles_38
+    21300078: Perspective_Tiles_39
+    21300080: Perspective_Tiles_40
+    21300082: Perspective_Tiles_41
+    21300084: Perspective_Tiles_42
+    21300086: Perspective_Tiles_43
+    21300088: Perspective_Tiles_44
+    21300090: Perspective_Tiles_45
+    21300092: Perspective_Tiles_46
+    21300094: Perspective_Tiles_47
+    21300096: Perspective_Tiles_48
+    21300098: Perspective_Tiles_49
+    21300100: Perspective_Tiles_50
+    21300102: Perspective_Tiles_51
+    21300104: Perspective_Tiles_52
+    21300106: Perspective_Tiles_53
+    21300108: Perspective_Tiles_54
+    21300110: Perspective_Tiles_55
+    21300112: Perspective_Tiles_56
+    21300114: Perspective_Tiles_57
+    21300116: Perspective_Tiles_58
+    21300118: Perspective_Tiles_59
+    21300120: Perspective_Tiles_60
+    21300122: Perspective_Tiles_61
+    21300124: Perspective_Tiles_62
+    21300126: Perspective_Tiles_63
+    21300128: Perspective_Tiles_64
+    21300130: Perspective_Tiles_65
+    21300132: Perspective_Tiles_66
+    21300134: Perspective_Tiles_67
+    21300136: Perspective_Tiles_68
+    21300138: Perspective_Tiles_69
+    21300140: Perspective_Tiles_70
+    21300142: Perspective_Tiles_71
+    21300144: Perspective_Tiles_72
+    21300146: Perspective_Tiles_73
+    21300148: Perspective_Tiles_74
+    21300150: Perspective_Tiles_75
+    21300152: Perspective_Tiles_76
+    21300154: Perspective_Tiles_77
+    21300156: Perspective_Tiles_78
+    21300158: Perspective_Tiles_79
+    21300160: Perspective_Tiles_80
+    21300162: Perspective_Tiles_81
+    21300164: Perspective_Tiles_82
+    21300166: Perspective_Tiles_83
+    21300168: Perspective_Tiles_84
+    21300170: Perspective_Tiles_85
+    21300172: Perspective_Tiles_86
+    21300174: Perspective_Tiles_87
+    21300176: Perspective_Tiles_88
+    21300178: Perspective_Tiles_89
+    21300180: Perspective_Tiles_90
+    21300182: Perspective_Tiles_91
+    21300184: Perspective_Tiles_92
+    21300186: Perspective_Tiles_93
+    21300188: Perspective_Tiles_94
+    21300190: Perspective_Tiles_95
+    21300192: Perspective_Tiles_96
+    21300194: Perspective_Tiles_97
+    21300196: Perspective_Tiles_98
+    21300198: Perspective_Tiles_99
+    21300200: Perspective_Tiles_100
+    21300202: Perspective_Tiles_101
+    21300204: Perspective_Tiles_102
+    21300206: Perspective_Tiles_103
+    21300208: Perspective_Tiles_104
+    21300210: Perspective_Tiles_105
+    21300212: Perspective_Tiles_106
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Perspective_Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 704
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 705
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 640
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 576
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 512
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 447
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_56
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_63
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 320
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_66
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 320
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_79
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_80
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 191
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_88
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_89
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_100
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 64
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_103
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 64
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Perspective_Tiles_105
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 64
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

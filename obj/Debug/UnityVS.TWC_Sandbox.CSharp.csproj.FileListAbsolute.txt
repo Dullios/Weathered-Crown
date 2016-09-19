@@ -1,0 +1,15 @@
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\obj\Debug\UnityVS.TWC_Sandbox.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\BehaviourMachineRuntime.dll
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\obj\Debug\Assembly-CSharp.dll
+C:\Users\brabersr\Documents\Workspace_brabersr\GDAP\2014\CP_01\TWC_Sandbox\obj\Debug\Assembly-CSharp.pdb

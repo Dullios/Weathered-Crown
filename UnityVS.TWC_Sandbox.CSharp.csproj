@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1CA93B2-067D-296C-E471-2912A1EC00A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.0.2f1</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_0_2;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_0_2;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviourMachineRuntime">
+      <HintPath>Assets\Add-Ons\BehaviourMachine\BehaviourMachineRuntime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.TWC_Sandbox.CSharp.Plugins.csproj">
+      <Project>{92B492A5-C6CD-CFC2-8B96-0198A77FC2F2}</Project>
+      <Name>UnityVS.TWC_Sandbox.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\ActionState.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\AnyState.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\BehaviourTree.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\Blackboard.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\EmptyState.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\FsmBehaviour.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\GlobalBlackboard.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\MonoState.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\StateBehaviour.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\StateMachine.cs" />
+    <Compile Include="Assets\Add-Ons\BehaviourMachine\Wrapper\UnityEventState.cs" />
+    <Compile Include="Assets\BehaviourMachineExtraMethods.cs" />
+    <Compile Include="Assets\CascadeDoor.cs" />
+    <Compile Include="Assets\FreeParallax\Scripts\FreeParallax.cs" />
+    <Compile Include="Assets\FreeParallax\Scripts\FreeParallaxDemo.cs" />
+    <Compile Include="Assets\OnDeserialize.cs" />
+    <Compile Include="Assets\Scripts\Affectors\Base\PlayerAffector.cs" />
+    <Compile Include="Assets\Scripts\Affectors\ForceAffector.cs" />
+    <Compile Include="Assets\Scripts\Affectors\FrictionAffector.cs" />
+    <Compile Include="Assets\Scripts\Affectors\GravityAffector.cs" />
+    <Compile Include="Assets\Scripts\Affectors\WindAffector.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraBehaviourBase.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraBehaviourComponent.cs" />
+    <Compile Include="Assets\Scripts\Camera\CharacterBounds.cs" />
+    <Compile Include="Assets\Scripts\Camera\LookAhead.cs" />
+    <Compile Include="Assets\Scripts\Camera\PlatformLock.cs" />
+    <Compile Include="Assets\Scripts\Camera\SmoothToTarget.cs" />
+    <Compile Include="Assets\Scripts\Camera\WorldBounds.cs" />
+    <Compile Include="Assets\Scripts\CharacterController\Controller2D.cs" />
+    <Compile Include="Assets\Scripts\CharacterController\Controller2DBehaviours.cs" />
+    <Compile Include="Assets\Scripts\CharacterController\PlayerAffectorListener.cs" />
+    <Compile Include="Assets\Scripts\CharacterController\PushController.cs" />
+    <Compile Include="Assets\Scripts\CharacterController\RaycastController.cs" />
+    <Compile Include="Assets\Scripts\DoorButton.cs" />
+    <Compile Include="Assets\Scripts\GargoyleTrigger.cs" />
+    <Compile Include="Assets\Scripts\GeyserManager.cs" />
+    <Compile Include="Assets\Scripts\HubManager.cs" />
+    <Compile Include="Assets\Scripts\IcebergResizer.cs" />
+    <Compile Include="Assets\Scripts\InstanceIcon.cs" />
+    <Compile Include="Assets\Scripts\Menu\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Menu\LevelButtonInfo.cs" />
+    <Compile Include="Assets\Scripts\Menu\LevelInfo.cs" />
+    <Compile Include="Assets\Scripts\Menu\LevelSelect.cs" />
+    <Compile Include="Assets\Scripts\Menu\LoadGameButton.cs" />
+    <Compile Include="Assets\Scripts\Menu\LoadGameMenu.cs" />
+    <Compile Include="Assets\Scripts\Menu\MenuHelper.cs" />
+    <Compile Include="Assets\Scripts\Menu\SaveGameMenu.cs" />
+    <Compile Include="Assets\Scripts\ParticleController.cs" />
+    <Compile Include="Assets\Scripts\ParticleSortingLayerFix.cs" />
+    <Compile Include="Assets\Scripts\PickupCounter.cs" />
+    <Compile Include="Assets\Scripts\PickupManager.cs" />
+    <Compile Include="Assets\Scripts\Platform\CatmullRom.cs" />
+    <Compile Include="Assets\Scripts\Platform\MovingPlatformSpline.cs" />
+    <Compile Include="Assets\Scripts\Platform\PlatformController.cs" />
+    <Compile Include="Assets\Scripts\Platform\PlatformWaypointController.cs" />
+    <Compile Include="Assets\Scripts\PortalManager.cs" />
+    <Compile Include="Assets\Scripts\ReplaceWithPrefab.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
+    <Compile Include="Assets\Scripts\TitleMenuManager.cs" />
+    <Compile Include="Assets\Scripts\Triangulator.cs" />
+    <Compile Include="Assets\Scripts\Water\LakeManager.cs" />
+    <Compile Include="Assets\Scripts\Water\WaterDetector.cs" />
+    <Compile Include="Assets\Scripts\Weather\Geyser.cs" />
+    <Compile Include="Assets\Scripts\Weather\GeyserBehaviours.cs" />
+    <Compile Include="Assets\Scripts\Weather\ShadowController.cs" />
+    <Compile Include="Assets\Scripts\Weather\ShadowDesignation.cs" />
+    <Compile Include="Assets\Scripts\Weather\WeatherBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Weather\WeatherManager.cs" />
+    <Compile Include="Assets\Scripts\Weather\WeatherTile.cs" />
+    <Compile Include="Assets\Scripts\WeatherEnabled.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Add-Ons\BehaviourMachine\Readme!!!.txt" />
+    <None Include="Assets\FreeParallax\Readme.txt" />
+    <None Include="Assets\Plugins\whydoidoit.com\license.txt" />
+    <None Include="Assets\Shaders\GrayscaleSprite.shader" />
+    <None Include="Assets\Shaders\shadow.shader" />
+    <None Include="Assets\Tiled2Unity\Imported\Finalv1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\LastLevel.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Snow_Puzzle.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Temp_Sun.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Water Level.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\alpha_cloud.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\alpha_rain.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\alpha_rain_2.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\alpha_rain_3.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\alpha_snow.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\alpha_sun.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\final_rain_v1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\final_snow_v1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\final_tutorial_v1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\hub_v1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\hub_v2.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\level_tutorial.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\physicsPropTest.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\test.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\tutorial_alpha.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\tutorial_alpha2.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\tutorial_for_alpha.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+    <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

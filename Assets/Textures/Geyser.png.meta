@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: c28c085e2b475114088ac0988058f052
+timeCreated: 1438031850
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Geyser_0
+    21300002: Geyser_1
+    21300004: Geyser_2
+    21300006: Geyser_3
+    21300008: Geyser_4
+    21300010: Geyser_5
+    21300012: Geyser_6
+    21300014: Geyser_7
+    21300016: Geyser_8
+    21300018: Geyser_9
+    21300020: Geyser_11
+    21300022: Geyser_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Geyser_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 408
+        width: 180
+        height: 161
+      alignment: 9
+      pivot: {x: .5, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 406
+        width: 180
+        height: 161
+      alignment: 9
+      pivot: {x: .5, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 398
+        width: 180
+        height: 161
+      alignment: 9
+      pivot: {x: .5, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_3
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 403
+        width: 180
+        height: 161
+      alignment: 9
+      pivot: {x: .5, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 218
+        width: 180
+        height: 161
+      alignment: 9
+      pivot: {x: .5, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_5
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 218
+        width: 180
+        height: 161
+      alignment: 9
+      pivot: {x: .5, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_6
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 218
+        width: 180
+        height: 161
+      alignment: 9
+      pivot: {x: .5, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_7
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 218
+        width: 180
+        height: 161
+      alignment: 9
+      pivot: {x: .5, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 83
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 83
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 83
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Geyser_10
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 83
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

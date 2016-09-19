@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: cb8300ebc2c174a4ebbd4d0f9f7d8f3d
+timeCreated: 1439593679
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle_0
+    21300002: idle_1
+    21300004: SpriteSheet0608_2
+    21300006: walk_0
+    21300008: walk_1
+    21300010: walk_2
+    21300012: walk_3
+    21300014: SpriteSheet0608_7
+    21300016: run_0
+    21300018: run_1
+    21300020: run_2
+    21300022: run_3
+    21300024: run_4
+    21300026: run_5
+    21300028: jump_0
+    21300030: jump_1
+    21300032: jump_2
+    21300034: scarf_0
+    21300036: scarf_1
+    21300038: scarf_2
+    21300040: scarf_3
+    21300042: push_0
+    21300044: push_1
+    21300046: push_2
+    21300048: push_3
+    21300050: float_0
+    21300052: float_1
+    21300054: float_2
+    21300056: float_3
+    21300058: ground_attack_0
+    21300060: ground_attack_1
+    21300062: defend_0
+    21300064: defend_1
+    21300066: defend_2
+    21300068: air_attack_0
+    21300070: instance_cast_0
+    21300072: instance_cast_1
+    21300074: instance_cast_2
+    21300076: umbrella_open_ground_0
+    21300078: umbrella_open_ground_1
+    21300080: umbrella_open_ground_2
+    21300082: umbrella_open_ground_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 70
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: idle_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 4488
+        width: 180
+        height: 314
+      alignment: 9
+      pivot: {x: .509866416, y: .0630310476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 4491
+        width: 179
+        height: 314
+      alignment: 9
+      pivot: {x: .498337388, y: .0847323462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_0
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 4097
+        width: 164
+        height: 315
+      alignment: 9
+      pivot: {x: .501814306, y: .0271747895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4083
+        width: 240
+        height: 321
+      alignment: 9
+      pivot: {x: .502486646, y: .0321991816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_2
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 4087
+        width: 150
+        height: 320
+      alignment: 9
+      pivot: {x: .504902363, y: .0163879395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walk_3
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 4093
+        width: 215
+        height: 306
+      alignment: 9
+      pivot: {x: .503789306, y: .0381218418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_0
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 3706
+        width: 213
+        height: 326
+      alignment: 9
+      pivot: {x: .533871353, y: .151059389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_1
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 3678
+        width: 279
+        height: 317
+      alignment: 9
+      pivot: {x: .549548745, y: .111445189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_2
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 3664
+        width: 188
+        height: 319
+      alignment: 9
+      pivot: {x: .258111179, y: .124023438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_3
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 3682
+        width: 230
+        height: 310
+      alignment: 9
+      pivot: {x: .580139697, y: .106529579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_4
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 3692
+        width: 300
+        height: 318
+      alignment: 9
+      pivot: {x: .502560198, y: .10143429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_5
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 3682
+        width: 192
+        height: 318
+      alignment: 9
+      pivot: {x: .500001252, y: .0772835612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jump_0
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 3344
+        width: 236
+        height: 196
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jump_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 3236
+        width: 242
+        height: 297
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jump_2
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 3261
+        width: 213
+        height: 300
+      alignment: 9
+      pivot: {x: .502261996, y: .0919710323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scarf_0
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2466
+        width: 150
+        height: 67
+      alignment: 9
+      pivot: {x: .942282796, y: .089340739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scarf_1
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2456
+        width: 149
+        height: 70
+      alignment: 9
+      pivot: {x: .951101124, y: .316600353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scarf_2
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2464
+        width: 151
+        height: 43
+      alignment: 9
+      pivot: {x: .927710891, y: .139112905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scarf_3
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2462
+        width: 132
+        height: 74
+      alignment: 9
+      pivot: {x: .955688477, y: .120766848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: push_0
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1045
+        width: 243
+        height: 260
+      alignment: 9
+      pivot: {x: .707040012, y: .0385760367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: push_1
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1058
+        width: 195
+        height: 254
+      alignment: 9
+      pivot: {x: .595290601, y: .0209759083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: push_2
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1035
+        width: 230
+        height: 268
+      alignment: 9
+      pivot: {x: .639184594, y: .0922425091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: push_3
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1033
+        width: 185
+        height: 277
+      alignment: 9
+      pivot: {x: .6175524, y: .0683280826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: float_0
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 2721
+        width: 259
+        height: 418
+      alignment: 9
+      pivot: {x: .489215851, y: .0817009583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: float_1
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 2725
+        width: 239
+        height: 432
+      alignment: 9
+      pivot: {x: .61452955, y: .0758604854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: float_2
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 2719
+        width: 275
+        height: 447
+      alignment: 9
+      pivot: {x: .504062951, y: .0788456798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: float_3
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 2728
+        width: 276
+        height: 441
+      alignment: 9
+      pivot: {x: .506072581, y: .0490481853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: air_attack_0
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2755
+        width: 167
+        height: 215
+      alignment: 9
+      pivot: {x: .249891445, y: .0963867158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: instance_cast_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1974
+        width: 246
+        height: 340
+      alignment: 9
+      pivot: {x: .562147915, y: .0540900752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: instance_cast_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1976
+        width: 417
+        height: 224
+      alignment: 9
+      pivot: {x: .40528807, y: .076271601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: instance_cast_2
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1974
+        width: 259
+        height: 219
+      alignment: 9
+      pivot: {x: .46802631, y: .0956852883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: umbrella_open_ground_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1483
+        width: 243
+        height: 267
+      alignment: 9
+      pivot: {x: .651539087, y: .073417291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: umbrella_open_ground_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1485
+        width: 451
+        height: 279
+      alignment: 9
+      pivot: {x: .237961397, y: .0733485073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: umbrella_open_ground_2
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1485
+        width: 407
+        height: 284
+      alignment: 9
+      pivot: {x: .215945229, y: .0680215359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: umbrella_open_ground_3
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1485
+        width: 358
+        height: 286
+      alignment: 9
+      pivot: {x: .253613681, y: .0658253506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

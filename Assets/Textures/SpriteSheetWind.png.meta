@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 3271dc4d56052f24781b1c8b14dea3db
+timeCreated: 1437434153
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteSheetWind_0
+    21300002: SpriteSheetWind_1
+    21300004: SpriteSheetWind_2
+    21300006: SpriteSheetWind_3
+    21300008: SpriteSheetWind_4
+    21300010: SpriteSheetWind_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SpriteSheetWind_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 82
+        width: 154
+        height: 146
+      alignment: 9
+      pivot: {x: .0231000222, y: .178289443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpriteSheetWind_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 81
+        width: 168
+        height: 124
+      alignment: 9
+      pivot: {x: .19196029, y: .35486725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpriteSheetWind_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 82
+        width: 212
+        height: 103
+      alignment: 9
+      pivot: {x: .748491704, y: .722059965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpriteSheetWind_3
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 81
+        width: 252
+        height: 103
+      alignment: 9
+      pivot: {x: .748491704, y: .722060025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpriteSheetWind_4
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 81
+        width: 252
+        height: 103
+      alignment: 9
+      pivot: {x: .748491704, y: .722060025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpriteSheetWind_5
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 81
+        width: 252
+        height: 103
+      alignment: 9
+      pivot: {x: .748491704, y: .722060025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

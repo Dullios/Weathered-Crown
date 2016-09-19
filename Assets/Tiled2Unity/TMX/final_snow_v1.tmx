@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="400" height="150" tilewidth="64" tileheight="64" nextobjectid="29">
+ <tileset firstgid="1" name="Perspective_Tiles" tilewidth="64" tileheight="64">
+  <image source="../../Textures/Perspective_Tiles.png" width="832" height="832"/>
+  <tile id="14">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="16">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="18">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="20">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="35">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="37">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="40">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="42">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="44">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="46">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="61">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="63">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="66">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="68">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="70">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="72">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="87">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="89">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="92">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="94">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="96">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="98">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="113">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="115">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="120">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="122">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="124">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="148">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="150">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="152">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="170" name="Map_Tiles" tilewidth="64" tileheight="64">
+  <image source="../../Textures/Map_Tiles.png" width="960" height="448"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="0"/>
+    <frame tileid="45" duration="0"/>
+    <frame tileid="7" duration="0"/>
+    <frame tileid="52" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="0" duration="0"/>
+    <frame tileid="45" duration="0"/>
+    <frame tileid="7" duration="0"/>
+    <frame tileid="52" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="9">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="2" duration="0"/>
+    <frame tileid="47" duration="0"/>
+    <frame tileid="9" duration="0"/>
+    <frame tileid="54" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="3" duration="0"/>
+    <frame tileid="48" duration="0"/>
+    <frame tileid="10" duration="0"/>
+    <frame tileid="55" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="11">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="4" duration="0"/>
+    <frame tileid="49" duration="0"/>
+    <frame tileid="11" duration="0"/>
+    <frame tileid="56" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="6" duration="0"/>
+    <frame tileid="51" duration="0"/>
+    <frame tileid="13" duration="0"/>
+    <frame tileid="58" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="15">
+   <animation>
+    <frame tileid="15" duration="0"/>
+    <frame tileid="60" duration="0"/>
+    <frame tileid="22" duration="0"/>
+    <frame tileid="67" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="22">
+   <animation>
+    <frame tileid="0" duration="0"/>
+    <frame tileid="45" duration="0"/>
+    <frame tileid="7" duration="0"/>
+    <frame tileid="52" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="23">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="16" duration="0"/>
+    <frame tileid="61" duration="0"/>
+    <frame tileid="23" duration="0"/>
+    <frame tileid="68" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="24">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="17" duration="0"/>
+    <frame tileid="62" duration="0"/>
+    <frame tileid="24" duration="0"/>
+    <frame tileid="69" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="25">
+   <animation>
+    <frame tileid="18" duration="0"/>
+    <frame tileid="63" duration="0"/>
+    <frame tileid="25" duration="0"/>
+    <frame tileid="70" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="26">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="19" duration="0"/>
+    <frame tileid="64" duration="0"/>
+    <frame tileid="26" duration="0"/>
+    <frame tileid="71" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="27">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="20" duration="0"/>
+    <frame tileid="65" duration="0"/>
+    <frame tileid="27" duration="0"/>
+    <frame tileid="72" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="21" duration="0"/>
+    <frame tileid="66" duration="0"/>
+    <frame tileid="28" duration="0"/>
+    <frame tileid="73" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="38">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="31" duration="0"/>
+    <frame tileid="76" duration="0"/>
+    <frame tileid="38" duration="0"/>
+    <frame tileid="83" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="39">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="32" duration="0"/>
+    <frame tileid="77" duration="0"/>
+    <frame tileid="39" duration="0"/>
+    <frame tileid="84" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="40">
+   <animation>
+    <frame tileid="33" duration="0"/>
+    <frame tileid="78" duration="0"/>
+    <frame tileid="40" duration="0"/>
+    <frame tileid="85" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="41">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="34" duration="0"/>
+    <frame tileid="79" duration="0"/>
+    <frame tileid="41" duration="0"/>
+    <frame tileid="101" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="42">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="35" duration="0"/>
+    <frame tileid="80" duration="0"/>
+    <frame tileid="42" duration="0"/>
+    <frame tileid="104" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="43">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="275" name="Perspective_Tiles_v2" tilewidth="64" tileheight="64">
+  <image source="../../Textures/Perspective_Tiles_v2.png" width="1600" height="832"/>
+  <tile id="26">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="16" width="48" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="26" duration="0"/>
+    <frame tileid="38" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="28" duration="0"/>
+    <frame tileid="40" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="30">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="30" duration="0"/>
+    <frame tileid="42" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="32">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="32" duration="0"/>
+    <frame tileid="44" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="38">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="16" width="48" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="26" duration="0"/>
+    <frame tileid="38" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="40">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="28" duration="0"/>
+    <frame tileid="40" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="42">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="30" duration="0"/>
+    <frame tileid="42" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="44">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="32" duration="0"/>
+    <frame tileid="44" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="59">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="59" duration="0"/>
+    <frame tileid="71" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="61">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="61" duration="0"/>
+    <frame tileid="73" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="71">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="59" duration="0"/>
+    <frame tileid="71" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="73">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="61" duration="0"/>
+    <frame tileid="73" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="76">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="76" duration="0"/>
+    <frame tileid="88" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="78">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="16" width="48" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="78" duration="0"/>
+    <frame tileid="90" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="80">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="80" duration="0"/>
+    <frame tileid="92" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="82">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="82" duration="0"/>
+    <frame tileid="94" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="88">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="76" duration="0"/>
+    <frame tileid="88" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="90">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="16" width="48" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="78" duration="0"/>
+    <frame tileid="90" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="92">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="80" duration="0"/>
+    <frame tileid="92" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="94">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="82" duration="0"/>
+    <frame tileid="94" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="109">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="109" duration="0"/>
+    <frame tileid="121" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="111">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="111" duration="0"/>
+    <frame tileid="123" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="121">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="109" duration="0"/>
+    <frame tileid="121" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="123">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="111" duration="0"/>
+    <frame tileid="123" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="126">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="126" duration="0"/>
+    <frame tileid="138" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="128">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="128" duration="0"/>
+    <frame tileid="140" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="130">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="130" duration="0"/>
+    <frame tileid="142" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="132">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="132" duration="0"/>
+    <frame tileid="144" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="138">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="126" duration="0"/>
+    <frame tileid="138" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="140">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="128" duration="0"/>
+    <frame tileid="140" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="142">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="130" duration="0"/>
+    <frame tileid="142" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="144">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="132" duration="0"/>
+    <frame tileid="144" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="159">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="159" duration="0"/>
+    <frame tileid="171" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="161">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="161" duration="0"/>
+    <frame tileid="173" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="171">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="159" duration="0"/>
+    <frame tileid="171" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="173">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="161" duration="0"/>
+    <frame tileid="173" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="176">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="16" width="48" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="176" duration="0"/>
+    <frame tileid="188" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="178">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="178" duration="0"/>
+    <frame tileid="190" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="180">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="180" duration="0"/>
+    <frame tileid="192" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="182">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="182" duration="0"/>
+    <frame tileid="194" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="188">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="16" width="48" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="176" duration="0"/>
+    <frame tileid="188" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="190">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="178" duration="0"/>
+    <frame tileid="190" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="192">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="180" duration="0"/>
+    <frame tileid="192" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="194">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="182" duration="0"/>
+    <frame tileid="194" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="209">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="209" duration="0"/>
+    <frame tileid="221" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="211">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="211" duration="0"/>
+    <frame tileid="223" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="221">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="209" duration="0"/>
+    <frame tileid="221" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="223">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="211" duration="0"/>
+    <frame tileid="223" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="228">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="228" duration="0"/>
+    <frame tileid="240" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="230">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="230" duration="0"/>
+    <frame tileid="242" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="232">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="232" duration="0"/>
+    <frame tileid="244" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="240">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="228" duration="0"/>
+    <frame tileid="240" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="242">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="230" duration="0"/>
+    <frame tileid="242" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="244">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="232" duration="0"/>
+    <frame tileid="244" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="280">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="280" duration="0"/>
+    <frame tileid="292" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="282">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="282" duration="0"/>
+    <frame tileid="294" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="284">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="48" height="64"/>
+    <object id="0" x="0" y="16" width="64" height="48"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="284" duration="0"/>
+    <frame tileid="296" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="292">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="280" duration="0"/>
+    <frame tileid="292" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="294">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="282" duration="0"/>
+    <frame tileid="294" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="296">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16" width="64" height="48"/>
+    <object id="0" x="16" y="0" width="48" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="284" duration="0"/>
+    <frame tileid="296" duration="0"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="400" height="150">
+  <properties>
+   <property name="defaultweather" value="Snow"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="Water Physics">
+  <properties>
+   <property name="unity:layer" value="Snow"/>
+  </properties>
+  <object id="22" x="1472" y="5248" width="2624" height="576">
+   <properties>
+    <property name="jumpheight" value="12"/>
+    <property name="timetoapex" value="0.64"/>
+   </properties>
+  </object>
+  <object id="25" x="6080" y="5712" width="3136" height="624">
+   <properties>
+    <property name="jumpheight" value="12"/>
+    <property name="timetoapex" value="0.64"/>
+   </properties>
+  </object>
+  <object id="26" x="10176" y="5696" width="512" height="320">
+   <properties>
+    <property name="jumpheight" value="12"/>
+    <property name="timetoapex" value="0.64"/>
+   </properties>
+  </object>
+  <object id="27" x="11456" y="5920" width="4160" height="352">
+   <properties>
+    <property name="jumpheight" value="12"/>
+    <property name="timetoapex" value=".64"/>
+   </properties>
+  </object>
+  <object id="28" x="15808" y="5952" width="3648" height="320">
+   <properties>
+    <property name="jumpheight" value="12"/>
+    <property name="timetoapex" value=".64"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

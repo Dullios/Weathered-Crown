@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 77c92a22dab046b47bc6d94a6c87b4e1
+timeCreated: 1437667015
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gust_0
+    21300002: Gust_1
+    21300004: Gust_2
+    21300006: Gust_3
+    21300008: Gust_4
+    21300010: Gust_5
+    21300012: Gust_6
+    21300014: Gust_7
+    21300016: Gust_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Gust_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5680
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gust_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5020
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gust_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4360
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gust_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3700
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gust_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3040
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gust_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2380
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gust_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1720
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gust_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1060
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gust_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 908
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

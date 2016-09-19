@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 4fe6d76e6d03ade47bf4944303c9fe19
+timeCreated: 1440012839
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: top_flowing_0
+    21300002: Geyser_new_1
+    21300004: Geyser_new_2
+    21300006: Geyser_new_3
+    21300008: Geyser_new_4
+    21300010: Geyser_new_5
+    21300012: Geyser_new_6
+    21300014: Geyser_new_7
+    21300016: top_flowing_1
+    21300018: top_flowing_2
+    21300020: top_flowing_3
+    21300022: body_flowing_0
+    21300024: body_flowing_1
+    21300026: body_flowing_2
+    21300028: body_flowing_3
+    21300030: top_frozen
+    21300032: body_frozen_0
+    21300034: body_frozen_1
+    21300036: body_frozen_2
+    21300038: body_frozen_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: top_flowing_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 154
+        width: 170
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_flowing_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 155
+        width: 186
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_flowing_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 158
+        width: 180
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_flowing_3
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 165
+        width: 171
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body_flowing_0
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 80
+        width: 60
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body_flowing_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 80
+        width: 64
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body_flowing_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 80
+        width: 64
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body_flowing_3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 80
+        width: 64
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: top_frozen
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 15
+        width: 151
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body_frozen_0
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 16
+        width: 60
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body_frozen_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 16
+        width: 64
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body_frozen_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 16
+        width: 64
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body_frozen_3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 16
+        width: 64
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

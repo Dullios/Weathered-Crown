@@ -1,0 +1,261 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class Controller2D : RaycastController {
+
+	public float maxClimbAngle = 80;
+	public float maxDescendAngle = 80;
+	
+	public CollisionInfo collisions;
+
+    //[HideInInspector]
+    public Vector3 velocity = Vector3.zero;
+    private bool onPlatform = false;
+
+    protected override void Awake()
+    {
+		base.Awake ();
+	}
+
+	public virtual void Move(Vector3 velocity)
+	{
+		Move (velocity, false);
+	}
+
+    public virtual void Move(Vector3 velocity, bool standingOnPlatform)
+    {
+
+        if (standingOnPlatform) onPlatform = true;
+
+        collisions.Reset();
+        UpdateRaycastOrigins();
+
+        collisions.velocityOld = velocity;
+
+        if (velocity.y < 0)
+        {
+            DescendSlope(ref velocity);
+        }
+        if (velocity.x != 0)
+        {
+            HorizontalCollisions(ref velocity);
+        }
+        if (velocity.y != 0)
+        {
+            VerticalCollisions(ref velocity);
+        }
+
+
+        if (onPlatform)
+        {
+            collisions.below = true;
+        }
+
+        float precision = 1000f;
+        velocity.x = Mathf.Round(velocity.x * precision) / precision;
+        velocity.y = Mathf.Round(velocity.y * precision) / precision;
+
+        transform.Translate(velocity);
+        this.velocity = velocity;
+
+        onPlatform = false;
+	}
+
+	void HorizontalCollisions(ref Vector3 velocity) {
+		float directionX = Mathf.Sign (velocity.x);
+		float rayLength = Mathf.Abs (velocity.x) + skinWidth;
+		
+		for (int i = 0; i < horizontalRayCount; i ++) {
+			Vector2 rayOrigin = (directionX == -1)?raycastOrigins.bottomLeft:raycastOrigins.bottomRight;
+			rayOrigin += Vector2.up * (horizontalRaySpacing * i);
+			RaycastHit2D[] hits = Physics2D.RaycastAll(rayOrigin, Vector2.right * directionX, rayLength, collisionMask);
+
+			Debug.DrawRay(rayOrigin, Vector2.right * directionX * rayLength,Color.red);
+
+            // We don't want the player to collide with triggers
+            foreach (RaycastHit2D hit in hits)
+            {
+                if (hit.collider.gameObject != this.gameObject && !hit.collider.isTrigger)
+                {
+
+                    if (hit.distance == 0)
+                    {
+                        continue;
+                    }
+
+                    float slopeAngle = Vector2.Angle(hit.normal, Vector2.up);
+
+                    if (i == 0 && slopeAngle <= maxClimbAngle)
+                    {
+                        if (collisions.descendingSlope)
+                        {
+                            collisions.descendingSlope = false;
+                            velocity = collisions.velocityOld;
+                        }
+                        float distanceToSlopeStart = 0;
+                        if (slopeAngle != collisions.slopeAngleOld)
+                        {
+                            distanceToSlopeStart = hit.distance - skinWidth;
+                            velocity.x -= distanceToSlopeStart * directionX;
+                        }
+                        ClimbSlope(ref velocity, slopeAngle);
+                        velocity.x += distanceToSlopeStart * directionX;
+                    }
+
+                    if (!collisions.climbingSlope || slopeAngle > maxClimbAngle)
+                    {
+                        velocity.x = (hit.distance - skinWidth) * directionX;
+                        rayLength = hit.distance;
+
+                        if (collisions.climbingSlope)
+                        {
+                            velocity.y = Mathf.Tan(collisions.slopeAngle * Mathf.Deg2Rad) * Mathf.Abs(velocity.x);
+                        }
+
+                        collisions.left = directionX == -1;
+                        collisions.right = directionX == 1;
+                    }
+
+                    break;
+                }
+            }
+		}
+	}
+	
+	void VerticalCollisions(ref Vector3 velocity) {
+		float directionY = Mathf.Sign (velocity.y);
+		float rayLength = Mathf.Abs (velocity.y) + skinWidth;
+
+		for (int i = 0; i < verticalRayCount; i ++) {
+
+			Vector2 rayOrigin = (directionY == -1)?raycastOrigins.bottomLeft:raycastOrigins.topLeft;
+			rayOrigin += Vector2.right * (verticalRaySpacing * i + velocity.x);
+			RaycastHit2D[] hits = Physics2D.RaycastAll(rayOrigin, Vector2.up * directionY, rayLength, collisionMask);
+
+			Debug.DrawRay(rayOrigin, Vector2.up * directionY * rayLength,Color.red);
+
+            // We don't want the player to collide with triggers
+            foreach (RaycastHit2D hit in hits)
+            {
+                if (hit.collider.gameObject != this.gameObject && !hit.collider.isTrigger)
+                {
+                    if (directionY == 1)
+                    {
+                        if (hit.collider.tag == "One-Way" || hit.distance == 0)
+                        {
+                            continue;
+                        }
+                    }
+
+                    velocity.y = (hit.distance - skinWidth) * directionY;
+                    rayLength = hit.distance;
+
+                    if (collisions.climbingSlope)
+                    {
+                        velocity.x = velocity.y / Mathf.Tan(collisions.slopeAngle * Mathf.Deg2Rad) * Mathf.Sign(velocity.x);
+                    }
+
+                    collisions.below = directionY == -1;
+                    collisions.above = directionY == 1;
+
+                    break;
+                }
+            }
+		}
+
+		if (collisions.climbingSlope) {
+			float directionX = Mathf.Sign(velocity.x);
+			rayLength = Mathf.Abs(velocity.x) + skinWidth;
+			Vector2 rayOrigin = ((directionX == -1)?raycastOrigins.bottomLeft:raycastOrigins.bottomRight) + Vector2.up * velocity.y;
+
+
+			RaycastHit2D[] hits = Physics2D.RaycastAll(rayOrigin,Vector2.right * directionX,rayLength,collisionMask);
+
+            foreach (RaycastHit2D hit in hits)
+            {
+                if (hit.collider.gameObject != this.gameObject && !hit.collider.isTrigger)
+                {
+                    float slopeAngle = Vector2.Angle(hit.normal, Vector2.up);
+                    if (slopeAngle != collisions.slopeAngle)
+                    {
+                        velocity.x = (hit.distance - skinWidth) * directionX;
+                        collisions.slopeAngle = slopeAngle;
+                    }
+
+                    break;
+                }
+            }
+		}
+	}
+
+	void ClimbSlope(ref Vector3 velocity, float slopeAngle) {
+		float moveDistance = Mathf.Abs (velocity.x);
+		float climbVelocityY = Mathf.Sin (slopeAngle * Mathf.Deg2Rad) * moveDistance;
+
+		if (velocity.y <= climbVelocityY) {
+			velocity.y = climbVelocityY;
+			velocity.x = Mathf.Cos (slopeAngle * Mathf.Deg2Rad) * moveDistance * Mathf.Sign (velocity.x);
+			collisions.below = true;
+			collisions.climbingSlope = true;
+			collisions.slopeAngle = slopeAngle;
+		}
+	}
+
+	void DescendSlope(ref Vector3 velocity) {
+		float directionX = Mathf.Sign (velocity.x);
+		Vector2 rayOrigin = (directionX == -1) ? raycastOrigins.bottomRight : raycastOrigins.bottomLeft;
+		RaycastHit2D[] hits = Physics2D.RaycastAll(rayOrigin, -Vector2.up, Mathf.Infinity, collisionMask);
+
+        // We don't want the player to collide with triggers
+        foreach (RaycastHit2D hit in hits)
+        {
+            if (hit.collider.gameObject != this.gameObject && !hit.collider.isTrigger)
+            {
+                float slopeAngle = Vector2.Angle(hit.normal, Vector2.up);
+                if (slopeAngle != 0 && slopeAngle <= maxDescendAngle)
+                {
+                    if (Mathf.Sign(hit.normal.x) == directionX)
+                    {
+                        if (hit.distance - skinWidth <= Mathf.Tan(slopeAngle * Mathf.Deg2Rad) * Mathf.Abs(velocity.x))
+                        {
+                            float moveDistance = Mathf.Abs(velocity.x);
+                            float descendVelocityY = Mathf.Sin(slopeAngle * Mathf.Deg2Rad) * moveDistance;
+                            velocity.x = Mathf.Cos(slopeAngle * Mathf.Deg2Rad) * moveDistance * Mathf.Sign(velocity.x);
+                            velocity.y -= descendVelocityY;
+
+                            collisions.slopeAngle = slopeAngle;
+                            collisions.descendingSlope = true;
+                            collisions.below = true;
+                        }
+                    }
+                }
+
+                break;
+            }
+        }
+	}
+
+
+
+	public struct CollisionInfo {
+		public bool above, below;
+		public bool left, right;
+
+		public bool climbingSlope;
+		public bool descendingSlope;
+		public float slopeAngle, slopeAngleOld;
+		public Vector3 velocityOld;
+
+		public void Reset() {
+			above = below = false;
+			left = right = false;
+			climbingSlope = false;
+			descendingSlope = false;
+
+			slopeAngleOld = slopeAngle;
+			slopeAngle = 0;
+		}
+	}
+
+}

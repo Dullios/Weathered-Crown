@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="110" height="115" tilewidth="64" tileheight="64" nextobjectid="2">
+ <properties>
+  <property name="defaultweather" value="Sun"/>
+ </properties>
+ <tileset firstgid="1" name="Map_Tiles" tilewidth="64" tileheight="64">
+  <image source="../../Textures/Map_Tiles.png" width="960" height="448"/>
+  <tile id="2">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="3" duration="0"/>
+    <frame tileid="48" duration="0"/>
+    <frame tileid="10" duration="0"/>
+    <frame tileid="55" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="17">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="19">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="31">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="34">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="35">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="45">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="0" duration="0"/>
+    <frame tileid="45" duration="0"/>
+    <frame tileid="7" duration="0"/>
+    <frame tileid="52" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="46">
+   <animation>
+    <frame tileid="1" duration="0"/>
+    <frame tileid="46" duration="0"/>
+    <frame tileid="8" duration="0"/>
+    <frame tileid="53" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="47">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="2" duration="0"/>
+    <frame tileid="47" duration="0"/>
+    <frame tileid="9" duration="0"/>
+    <frame tileid="54" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="48">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="3" duration="0"/>
+    <frame tileid="48" duration="0"/>
+    <frame tileid="10" duration="0"/>
+    <frame tileid="55" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="49">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="4" duration="0"/>
+    <frame tileid="49" duration="0"/>
+    <frame tileid="11" duration="0"/>
+    <frame tileid="56" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="51">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="60">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="15" duration="0"/>
+    <frame tileid="60" duration="0"/>
+    <frame tileid="22" duration="0"/>
+    <frame tileid="67" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="61">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="16" duration="0"/>
+    <frame tileid="61" duration="0"/>
+    <frame tileid="16" duration="0"/>
+    <frame tileid="68" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="62">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="17" duration="0"/>
+    <frame tileid="62" duration="0"/>
+    <frame tileid="24" duration="0"/>
+    <frame tileid="69" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="63">
+   <animation>
+    <frame tileid="18" duration="0"/>
+    <frame tileid="63" duration="0"/>
+    <frame tileid="25" duration="0"/>
+    <frame tileid="70" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="64">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="19" duration="0"/>
+    <frame tileid="64" duration="0"/>
+    <frame tileid="26" duration="0"/>
+    <frame tileid="71" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="65">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="66">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="75">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="30" duration="0"/>
+    <frame tileid="75" duration="0"/>
+    <frame tileid="37" duration="0"/>
+    <frame tileid="82" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="76">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="31" duration="0"/>
+    <frame tileid="76" duration="0"/>
+    <frame tileid="38" duration="0"/>
+    <frame tileid="83" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="77">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="32" duration="0"/>
+    <frame tileid="77" duration="0"/>
+    <frame tileid="39" duration="0"/>
+    <frame tileid="84" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="78">
+   <animation>
+    <frame tileid="33" duration="0"/>
+    <frame tileid="78" duration="0"/>
+    <frame tileid="40" duration="0"/>
+    <frame tileid="85" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="79">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="34" duration="0"/>
+    <frame tileid="79" duration="0"/>
+    <frame tileid="41" duration="0"/>
+    <frame tileid="101" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="80">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="35" duration="0"/>
+    <frame tileid="80" duration="0"/>
+    <frame tileid="42" duration="0"/>
+    <frame tileid="104" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="93">
+   <animation>
+    <frame tileid="93" duration="0"/>
+    <frame tileid="96" duration="0"/>
+    <frame tileid="93" duration="0"/>
+    <frame tileid="90" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="94">
+   <animation>
+    <frame tileid="94" duration="0"/>
+    <frame tileid="97" duration="0"/>
+    <frame tileid="94" duration="0"/>
+    <frame tileid="91" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="95">
+   <animation>
+    <frame tileid="95" duration="0"/>
+    <frame tileid="98" duration="0"/>
+    <frame tileid="95" duration="0"/>
+    <frame tileid="92" duration="0"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="110" height="115">
+  <data encoding="base64" compression="zlib">
+   eJzt2MFtg0AQBVAOKShJA04aiNJ/NTE3ZAFelhk2Y70n/aNhtN/AwjQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjPV+z8dKPkcOxVO3e75W8j1onle0dW2cuVb0lm9rjR9zZM31lk9vOTLuY0t6y5GxrtnH15veqtJbTXqrSW816S1H6z69dw9/Zl1bZvs5cfyjMz87xnLe7G+Zreu6l6z/YcRsPTP29rb8Xfa1qbf28+rtutl6Zozo7Xdav69H0Vv7ef/TvkRv7ecd3dty39O6H9uL3q4RuR5z9HaN6N62nsFz3g6k992sJRV7e3x/jVyPKqnYW/T1VTF6q5mI3ubnwd69vedZEPEN75UT0ZvoTeJ7AwAAAAAY5TZ6ALrorSa91aS3mv4AIDguwQ==
+  </data>
+ </layer>
+ <objectgroup name="Sun Physics">
+  <properties>
+   <property name="unity:layer" value="Sun"/>
+  </properties>
+  <object id="1" x="896" y="5056" width="2048" height="320">
+   <properties>
+    <property name="force:x" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Button" width="110" height="115">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6A1sn87C+zXAxKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0cx0AAAAAAAAAAN5YszoAMA==
+  </data>
+ </layer>
+ <layer name="Mud" width="110" height="115">
+  <data encoding="base64" compression="zlib">
+   eJzt0dEJgEAQQ8HtTG1E7b8Kr4Q7ENzgDLz/QKoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4i3N0TXR/tA8AAN62jXa16Kh5fuuT3zLzW2Z+y8xvmfktM79l5rfM/JaZ3zLzW2Yrv1WDvfJbcn7LzG+Zrfz2AAZ3kyk=
+  </data>
+ </layer>
+ <layer name="Door" width="110" height="115">
+  <data encoding="base64" compression="zlib">
+   eJzt0cEJACAMBMGUJDYg9t+UaSGvGJiB+x9sBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8LuV290nKDu5232CMt1m0m0m3QAAAAAAAAAAZnltpwJj
+  </data>
+ </layer>
+</map>

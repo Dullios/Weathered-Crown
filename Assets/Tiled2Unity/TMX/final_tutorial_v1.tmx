@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="500" height="110" tilewidth="64" tileheight="64" nextobjectid="141">
+ <tileset firstgid="1" name="Perspective_Tiles_v2" tilewidth="64" tileheight="64">
+  <image source="../../Textures/Perspective_Tiles_v2.png" width="1600" height="832"/>
+  <tile id="26">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="26" duration="0"/>
+    <frame tileid="38" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="12.8" width="64" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="28" duration="0"/>
+    <frame tileid="40" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="30">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="30" duration="0"/>
+    <frame tileid="42" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="32">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="12.8" width="64" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="32" duration="0"/>
+    <frame tileid="44" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="59">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="12.8" width="64" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="59" duration="0"/>
+    <frame tileid="71" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="61">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="61" duration="0"/>
+    <frame tileid="73" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="76">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="0" width="51.2" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="76" duration="0"/>
+    <frame tileid="88" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="78">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="78" duration="0"/>
+    <frame tileid="90" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="80">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="12.8" width="64" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="80" duration="0"/>
+    <frame tileid="92" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="82">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="12.8" width="64" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="82" duration="0"/>
+    <frame tileid="94" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="109">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="0" width="51.2" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="109" duration="0"/>
+    <frame tileid="121" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="111">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="111" duration="0"/>
+    <frame tileid="123" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="126">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="0" width="51.2" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="126" duration="0"/>
+    <frame tileid="138" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="128">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="0" width="51.2" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="128" duration="0"/>
+    <frame tileid="140" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="130">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="130" duration="0"/>
+    <frame tileid="142" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="132">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="132" duration="0"/>
+    <frame tileid="144" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="159">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="159" duration="0"/>
+    <frame tileid="171" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="161">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="161" duration="0"/>
+    <frame tileid="173" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="176">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="0" width="51.2" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="176" duration="0"/>
+    <frame tileid="188" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="178">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="0" width="51.2" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="178" duration="0"/>
+    <frame tileid="190" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="180">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="180" duration="0"/>
+    <frame tileid="192" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="182">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="182" duration="0"/>
+    <frame tileid="194" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="209">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="209" duration="0"/>
+    <frame tileid="221" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="211">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="211" duration="0"/>
+    <frame tileid="223" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="228">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="0" width="51.2" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="228" duration="0"/>
+    <frame tileid="240" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="230">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="230" duration="0"/>
+    <frame tileid="242" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="232">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="232" duration="0"/>
+    <frame tileid="244" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="280">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="280" duration="0"/>
+    <frame tileid="292" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="282">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="282" duration="0"/>
+    <frame tileid="294" duration="0"/>
+   </animation>
+  </tile>
+  <tile id="284">
+   <objectgroup draworder="index">
+    <object id="0" x="12.8" y="12.8" width="51.2" height="51.2"/>
+   </objectgroup>
+   <animation>
+    <frame tileid="284" duration="0"/>
+    <frame tileid="296" duration="0"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="500" height="110">
+  <data encoding="base64" compression="zlib">
+   eJzt3W2K1DAABuC5h4gX8Q4iHkhE9kQiXsQrLIu3cItbLKUfSZq0Sfo88OKPnZ3ZmTZ9m0xnfDwAAAAAAAAAAAAAAAAAAAAAAAAAqMHTWwCAdulzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID+fXrN58L5ctqzAYB7+vaa74XzdNqzASC3rXmf+Vo99DkAW/Z6gjrocwC26PM26HMAtqT0+bvXvC+QD7mfXITY5/Txce71Zfr8ONcGAj0zP08T0q85+1GfH+e1AHqmz9OE9Ovvx/E54Xi94q+Ax9Pn27wW3MGRz7Zal2qbPk9TYr681CFnzMvv0mFeC86S+/siYnr2yDHDft82ff7PMP7OGjP6/BpeC86Se9zG7I/6/L5quR4u5PqykhnWs2PWx0usf1/d538WHr8nVxzXpvM0a5l1yDl3Xtum+rw9PYzVWubnZ/ZWrbmyz3vv8sEVx7Xp9rvzsbImOcfU2jbNPW6nc429rtHnaXoYq/q8nlzV53fo8sEVx7UejhG9yTmmxp6dd2zJcbu3H+nzcNM5+XTNdb5W28p8XZ/Xk5g+fwlIyGPepcsHMdsi9rMJIe/L5LrPMzM9jsWsU8+Pf3u/G3v7kKz58cg/dufbtuTnUfb2oyOPXXOfz/eJHB0b0zst0Of1JLTPQzv4eeOxXiLupxdXb98WM90nY8bofF/e+93Y26eMpVGJPu8lNff5fJ9I/VvX5uR7acFwzN+a45X4rrelc+8zPl9de0L6PLaDl46LJa712ptv1eDq7dtipnPBmDEaO1/V53Xk7D5fOoaEXmOY+rem7FtLayI1HuOuYC7+P9Nzp6Wuft75+Z6Sfb61HWs8z796W8t6cq9Xb61Jmzus5+i4jT3Hjzk+zW+b+v5Vzu2PPs81dkIMr/V8zSXXOrs+F+krR8dt7DFh6fZrPV3jedhdpb5n0XPO6LyvBe9bn4v0lRr6vKXcVevbrcaxE/uddrnpc5G+cvQzGFtztaX7bnlu1+LnVXKl5e1WKjnOhYd96minj2snsfejz0VERPKdCx/t9LGXYztYn4uIiOTJz7d/j3T62Msx3yk5/b2l6HMREZG0pHZ6zDWmoe+h6HMREZH0pKzhn/V/xV3t6m0jIiLSWvS5iIhI+9HnIiIi7Uefi4iItB99LiIi0n70uYiISPvR5yIiIu2nxj7/CzeG+F0=
+  </data>
+ </layer>
+ <objectgroup name="Rain Physics">
+  <properties>
+   <property name="unity:layer" value="Rain"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Sun Physics">
+  <properties>
+   <property name="unity:layer" value="Sun"/>
+  </properties>
+  <object id="138" x="13926.4" y="5568" width="435.2" height="512">
+   <properties>
+    <property name="force:x" value="-10"/>
+   </properties>
+  </object>
+  <object id="139" x="14681.6" y="5568" width="332.8" height="448">
+   <properties>
+    <property name="force:x" value="-10"/>
+   </properties>
+  </object>
+  <object id="140" x="15385.6" y="5555.2" width="268.8" height="332.8">
+   <properties>
+    <property name="force:x" value="-10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
